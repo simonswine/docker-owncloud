@@ -1,14 +1,11 @@
-# Debian Standard
-deb http://ftp.de.debian.org/debian/ wheezy main contrib non-free
-deb-src http://ftp.de.debian.org/debian/ wheezy main contrib non-free
+deb http://security.ubuntu.com/ubuntu/ trusty-security universe main multiverse restricted
+deb http://de.archive.ubuntu.com/ubuntu trusty-updates universe main multiverse restricted
+deb http://de.archive.ubuntu.com/ubuntu trusty-proposed universe main multiverse restricted
+deb http://de.archive.ubuntu.com/ubuntu trusty main universe multiverse restricted
 
-# Security
-deb http://security.debian.org/ wheezy/updates main contrib non-free
-deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+deb-src http://security.ubuntu.com/ubuntu/ trusty-security universe main multiverse restricted
+deb-src http://de.archive.ubuntu.com/ubuntu trusty-updates universe main multiverse restricted
+deb-src http://de.archive.ubuntu.com/ubuntu trusty-proposed universe main multiverse restricted
+deb-src http://de.archive.ubuntu.com/ubuntu trusty main universe multiverse restricted
 
-# Volatile
-deb http://ftp.de.debian.org/debian/ wheezy-updates main
-deb-src http://ftp.de.debian.org/debian/ wheezy-updates main
-
-# Jenkins
-deb http://pkg.jenkins-ci.org/debian binary/
+deb http://download.opensuse.org/repositories/isv:/ownCloud:/community/xUbuntu_14.04/ /
